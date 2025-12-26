@@ -6,8 +6,8 @@ const translations = {
         // Navigation
         'nav.features': 'Features',
         'nav.howItWorks': 'How It Works',
+        'nav.integrations': 'Integrations',
         'nav.pricing': 'Pricing',
-        'nav.testimonials': 'Testimonials',
         'nav.contact': 'Contact',
         'nav.login': 'Log In',
         'nav.trial': 'Start Free Trial',
@@ -35,13 +35,23 @@ const translations = {
         'problem.withTitle': 'Clear & Actionable',
         'problem.withDesc': 'One platform, instant answers, confident decisions',
         'problem.pain1Title': 'Technical Barriers',
-        'problem.pain1Desc': 'SQL and BI tools require expertise. Only 25% of your team can access insights.',
-        'problem.pain2Title': 'Data Silos',
-        'problem.pain2Desc': 'Analytics, CRM, spreadsheets, accounting - your data lives in different worlds.',
-        'problem.pain3Title': 'Time Drain',
-        'problem.pain3Desc': 'Hours spent creating reports instead of running your business.',
-        'problem.pain4Title': 'No "So What?"',
-        'problem.pain4Desc': 'Charts show numbers, but what do they mean? What should you do next?',
+        'problem.pain1Desc': 'SQL and BI tools require expertise. Only 25% of your team can access insights, leaving managers dependent on IT for every report request.',
+        'problem.pain1Stat': 'Average wait time: 3-5 days per report',
+        'problem.pain2Title': 'Scattered Data Sources',
+        'problem.pain2Desc': 'Google Analytics, CRM, spreadsheets, accounting software - your valuable data lives in 5-10 disconnected tools with no unified view.',
+        'problem.pain2Stat': 'SMEs use 7+ different data sources on average',
+        'problem.pain3Title': 'Hours Lost Weekly',
+        'problem.pain3Desc': 'Manual data collection, Excel formatting, copy-pasting between tools. Your team wastes 8-15 hours per week on tasks that could be automated.',
+        'problem.pain3Stat': '$2,400+ wasted monthly in employee time',
+        'problem.pain4Title': 'Delayed Decisions',
+        'problem.pain4Desc': 'By the time you get the data you need, the opportunity has passed. Competitors with faster insights capture market share while you wait for reports.',
+        'problem.pain4Stat': '68% of business decisions are made without data',
+        'problem.pain5Title': 'No "So What?" Answers',
+        'problem.pain5Desc': 'Charts show numbers, but what do they mean for your business? Traditional BI tools lack context and actionable recommendations.',
+        'problem.pain5Stat': 'Only 12% of data visualizations lead to action',
+        'problem.pain6Title': 'Expensive BI Solutions',
+        'problem.pain6Desc': 'Enterprise analytics platforms cost $500-2000/month and require dedicated analysts. SMEs are priced out of data-driven decision making.',
+        'problem.pain6Stat': 'AskData: 90% cheaper than traditional BI',
 
         // Features
         'features.tag': 'Features',
@@ -68,18 +78,24 @@ const translations = {
         // How It Works
         'howItWorks.tag': 'How It Works',
         'howItWorks.title1': 'From Data to Decisions',
-        'howItWorks.title2': 'In Three Steps',
-        'howItWorks.step1Title': 'Connect Your Data',
-        'howItWorks.step1Desc': 'Link your Google Analytics, spreadsheets, or databases with one click. We support 150+ data sources including Yandex Metrica.',
-        'howItWorks.step2Title': 'Ask Questions',
-        'howItWorks.step2Desc': 'Type your questions in plain language. "What\'s my best traffic source?" "How did sales change this month?" No SQL or formulas needed.',
-        'howItWorks.step3Title': 'Get Insights & Act',
-        'howItWorks.step3Desc': 'Receive clear answers with visualizations, narrative explanations, and actionable recommendations. Export to PDF or share with your team.',
+        'howItWorks.title2': 'In Four Simple Steps',
+        'howItWorks.step1Title': 'Connect Your Data Sources',
+        'howItWorks.step1Desc': 'One-click integrations with 150+ data sources. Connect Google Analytics, spreadsheets, databases, CRM systems, and more. Your data stays secure with enterprise-grade encryption.',
+        'howItWorks.step2Title': 'Ask Questions in Plain Language',
+        'howItWorks.step2Desc': 'Type your questions naturally, just like asking a colleague. "What\'s my best traffic source?" "Why did sales drop?" AI understands context and provides follow-up insights.',
+        'howItWorks.step3Title': 'Customize & Save Dashboards',
+        'howItWorks.step3Desc': 'Build custom dashboards with your favorite insights. Drag and drop widgets, customize visualizations, and save them for daily automated updates delivered to your inbox.',
+        'howItWorks.step4Title': 'Get Insights & Take Action',
+        'howItWorks.step4Desc': 'Receive clear answers with beautiful visualizations, narrative explanations, and AI-powered recommendations. Export to PDF, share with your team, or schedule automated reports.',
         'howItWorks.q1': '"Why did bounce rate increase?"',
         'howItWorks.q2': '"Top 5 customers by revenue"',
         'howItWorks.q3': '"Compare Q3 vs Q4 sales"',
+        'howItWorks.salesChart': 'Sales Chart',
+        'howItWorks.trafficSource': 'Traffic',
+        'howItWorks.saved': 'Saved!',
         'howItWorks.revenueGrowth': 'Revenue Growth',
         'howItWorks.actionNeeded': 'Action Needed',
+        'howItWorks.dailyUpdates': 'Daily Updates',
 
         // Integrations
         'integrations.tag': 'Integrations',
@@ -176,22 +192,23 @@ const translations = {
         'footer.terms': 'Terms of Service',
         'footer.cookies': 'Cookie Policy',
 
-        // Chat Demo
+        // Chat Demo - Follow-up conversation flow
         'chat.question1': 'What were my top performing products last month?',
-        'chat.question2': 'Why did sales drop this week?',
         'chat.answer1Title': "Here's your top 5 products for November:",
         'chat.answer1Insight': 'Pro Plan revenue increased 23% vs October',
-        'chat.answer2Title': 'Sales dropped 12% this week due to:',
-        'chat.answer2Reason1': 'Holiday period - 35% less traffic',
-        'chat.answer2Reason2': 'Cart abandonment up 8%',
-        'chat.answer2Action': 'Consider: Launch a holiday promotion campaign'
+        'chat.followup1': 'Why did Pro Plan increase so much?',
+        'chat.followup1Answer': 'Pro Plan growth driven by:',
+        'chat.followup1Reason1': 'New enterprise clients: +12 signups',
+        'chat.followup1Reason2': 'Annual plan promotion: 35% chose yearly',
+        'chat.followup1Reason3': 'Referral program: 8 conversions',
+        'chat.followup1Action': 'Recommendation: Extend annual plan promotion through December'
     },
     uz: {
         // Navigation
         'nav.features': 'Xususiyatlar',
         'nav.howItWorks': 'Qanday ishlaydi',
+        'nav.integrations': 'Integratsiyalar',
         'nav.pricing': 'Narxlar',
-        'nav.testimonials': 'Fikrlar',
         'nav.contact': 'Aloqa',
         'nav.login': 'Kirish',
         'nav.trial': 'Bepul sinash',
@@ -219,13 +236,23 @@ const translations = {
         'problem.withTitle': 'Aniq va amaliy',
         'problem.withDesc': 'Bitta platforma, bir zumda javoblar, ishonchli qarorlar',
         'problem.pain1Title': 'Texnik to\'siqlar',
-        'problem.pain1Desc': 'SQL va BI vositalari tajriba talab qiladi. Jamoangizning faqat 25% tahliilarga kirishi mumkin.',
-        'problem.pain2Title': 'Ma\'lumot siloqlari',
-        'problem.pain2Desc': 'Tahlillar, CRM, jadvallar, buxgalteriya - ma\'lumotlaringiz turli dunyolarda yashaydi.',
-        'problem.pain3Title': 'Vaqt yo\'qotish',
-        'problem.pain3Desc': 'Biznesingizni boshqarish o\'rniga hisobotlar yaratishga soatlar sarflanadi.',
-        'problem.pain4Title': '"Nima uchun?" yo\'q',
-        'problem.pain4Desc': 'Grafiklar raqamlarni ko\'rsatadi, lekin ular nimani anglatadi? Keyingi qadam nima?',
+        'problem.pain1Desc': 'SQL va BI vositalari tajriba talab qiladi. Jamoangizning faqat 25% tahliilarga kirishi mumkin, menejerlar har bir hisobot uchun IT ga bog\'liq.',
+        'problem.pain1Stat': 'O\'rtacha kutish vaqti: har bir hisobot uchun 3-5 kun',
+        'problem.pain2Title': 'Tarqoq ma\'lumot manbalari',
+        'problem.pain2Desc': 'Google Analytics, CRM, jadvallar, buxgalteriya dasturi - qimmatli ma\'lumotlaringiz 5-10 ta bog\'lanmagan vositada yashaydi.',
+        'problem.pain2Stat': 'KO\'Blar o\'rtacha 7+ turli ma\'lumot manbalaridan foydalanadi',
+        'problem.pain3Title': 'Haftalik yo\'qotilgan soatlar',
+        'problem.pain3Desc': 'Qo\'lda ma\'lumot yig\'ish, Excel formatlash, vositalar orasida nusxalash. Jamoangiz haftasiga 8-15 soat sarflaydi.',
+        'problem.pain3Stat': 'Oyiga $2,400+ xodim vaqtida isrof',
+        'problem.pain4Title': 'Kechiktirilgan qarorlar',
+        'problem.pain4Desc': 'Kerakli ma\'lumotlarni olganingizda imkoniyat o\'tib ketgan. Tezroq tahlilga ega raqobatchilar bozor ulushini egallaydi.',
+        'problem.pain4Stat': 'Biznes qarorlarining 68% ma\'lumotsiz qabul qilinadi',
+        'problem.pain5Title': '"Nima uchun?" javoblari yo\'q',
+        'problem.pain5Desc': 'Grafiklar raqamlarni ko\'rsatadi, lekin ular biznesingiz uchun nimani anglatadi? An\'anaviy BI vositalari kontekst va tavsiyalarni bermaydi.',
+        'problem.pain5Stat': 'Ma\'lumot vizualizatsiyalarining faqat 12% harakatga olib keladi',
+        'problem.pain6Title': 'Qimmat BI yechimlari',
+        'problem.pain6Desc': 'Korporativ tahlil platformalari oyiga $500-2000 turadi va maxsus tahlilchilarni talab qiladi. KO\'Blar ma\'lumotlarga asoslangan qarorlardan chetda qoladi.',
+        'problem.pain6Stat': 'AskData: an\'anaviy BI dan 90% arzon',
 
         // Features
         'features.tag': 'Xususiyatlar',
@@ -252,18 +279,24 @@ const translations = {
         // How It Works
         'howItWorks.tag': 'Qanday ishlaydi',
         'howItWorks.title1': 'Ma\'lumotdan qarorlarga',
-        'howItWorks.title2': 'Uch qadamda',
-        'howItWorks.step1Title': 'Ma\'lumotlaringizni ulang',
-        'howItWorks.step1Desc': 'Google Analytics, jadvallar yoki ma\'lumotlar bazalarini bir marta bosish bilan ulang. Yandex Metrica ham qo\'llab-quvvatlanadi.',
-        'howItWorks.step2Title': 'Savollar bering',
-        'howItWorks.step2Desc': 'Oddiy tilda savollaringizni yozing. "Eng yaxshi trafik manbam nima?" SQL yoki formulalar kerak emas.',
-        'howItWorks.step3Title': 'Tahlillar oling va harakat qiling',
-        'howItWorks.step3Desc': 'Vizualizatsiyalar, hikoya tushuntirishlari va amaliy tavsiyalar bilan aniq javoblar oling.',
+        'howItWorks.title2': 'To\'rt oddiy qadamda',
+        'howItWorks.step1Title': 'Ma\'lumot manbalaringizni ulang',
+        'howItWorks.step1Desc': '150+ ma\'lumot manbalari bilan bir marta bosish integratsiyalari. Google Analytics, jadvallar, ma\'lumotlar bazalari, CRM tizimlarini ulang. Ma\'lumotlaringiz korporativ darajadagi shifrlash bilan xavfsiz.',
+        'howItWorks.step2Title': 'Oddiy tilda savollar bering',
+        'howItWorks.step2Desc': 'Savollaringizni tabiiy ravishda yozing, xuddi hamkasbingizdan so\'raganday. "Eng yaxshi trafik manbam nima?" "Savdolar nima uchun tushdi?" Sun\'iy intellekt kontekstni tushunadi.',
+        'howItWorks.step3Title': 'Boshqaruv panellarini moslashtiring va saqlang',
+        'howItWorks.step3Desc': 'Sevimli tahlillaringiz bilan maxsus boshqaruv panellarini yarating. Vidjetlarni sudrab tashlang, vizualizatsiyalarni moslashtiring va kundalik yangilanishlar uchun saqlang.',
+        'howItWorks.step4Title': 'Tahlillar oling va harakat qiling',
+        'howItWorks.step4Desc': 'Chiroyli vizualizatsiyalar, hikoya tushuntirishlari va sun\'iy intellekt tavsiyalari bilan aniq javoblar oling. PDF ga eksport qiling, jamoangiz bilan ulashing.',
         'howItWorks.q1': '"Sakrash darajasi nima uchun oshdi?"',
         'howItWorks.q2': '"Daromad bo\'yicha top 5 mijoz"',
         'howItWorks.q3': '"3-chorak va 4-chorakni solishtiring"',
+        'howItWorks.salesChart': 'Savdolar grafigi',
+        'howItWorks.trafficSource': 'Trafik',
+        'howItWorks.saved': 'Saqlandi!',
         'howItWorks.revenueGrowth': 'Daromad o\'sishi',
         'howItWorks.actionNeeded': 'Harakat kerak',
+        'howItWorks.dailyUpdates': 'Kundalik yangilanishlar',
 
         // Integrations
         'integrations.tag': 'Integratsiyalar',
@@ -360,22 +393,23 @@ const translations = {
         'footer.terms': 'Xizmat shartlari',
         'footer.cookies': 'Cookie siyosati',
 
-        // Chat Demo
+        // Chat Demo - Follow-up conversation flow
         'chat.question1': "O'tgan oyda eng yaxshi mahsulotlarim qaysilar edi?",
-        'chat.question2': 'Bu hafta savdolar nima uchun tushdi?',
         'chat.answer1Title': 'Noyabr oyi uchun top 5 mahsulotingiz:',
         'chat.answer1Insight': 'Pro Plan daromadi Oktyabrga nisbatan 23% oshdi',
-        'chat.answer2Title': 'Bu hafta savdolar 12% tushdi, sabablari:',
-        'chat.answer2Reason1': 'Bayram davri - 35% kam trafik',
-        'chat.answer2Reason2': 'Savat tashlab ketish 8% oshdi',
-        'chat.answer2Action': "Taklif: Bayram aksiya kampaniyasini boshlang"
+        'chat.followup1': 'Pro Plan nima uchun buncha oshdi?',
+        'chat.followup1Answer': 'Pro Plan o\'sishi sabablari:',
+        'chat.followup1Reason1': 'Yangi korporativ mijozlar: +12 ta ro\'yxatdan o\'tish',
+        'chat.followup1Reason2': 'Yillik reja aksiyasi: 35% yillikni tanladi',
+        'chat.followup1Reason3': 'Tavsiya dasturi: 8 ta konversiya',
+        'chat.followup1Action': 'Tavsiya: Yillik reja aksiyasini Dekabr oyigacha uzaytiring'
     },
     ru: {
         // Navigation
         'nav.features': 'Возможности',
         'nav.howItWorks': 'Как это работает',
+        'nav.integrations': 'Интеграции',
         'nav.pricing': 'Цены',
-        'nav.testimonials': 'Отзывы',
         'nav.contact': 'Контакты',
         'nav.login': 'Войти',
         'nav.trial': 'Начать бесплатно',
@@ -403,13 +437,23 @@ const translations = {
         'problem.withTitle': 'Ясно и действенно',
         'problem.withDesc': 'Одна платформа, мгновенные ответы, уверенные решения',
         'problem.pain1Title': 'Технические барьеры',
-        'problem.pain1Desc': 'SQL и BI-инструменты требуют экспертизы. Только 25% вашей команды имеют доступ к инсайтам.',
-        'problem.pain2Title': 'Разрозненность данных',
-        'problem.pain2Desc': 'Аналитика, CRM, таблицы, бухгалтерия - ваши данные живут в разных мирах.',
-        'problem.pain3Title': 'Потеря времени',
-        'problem.pain3Desc': 'Часы тратятся на создание отчётов вместо управления бизнесом.',
-        'problem.pain4Title': 'Нет "И что?"',
-        'problem.pain4Desc': 'Графики показывают цифры, но что они значат? Что делать дальше?',
+        'problem.pain1Desc': 'SQL и BI-инструменты требуют экспертизы. Только 25% вашей команды имеют доступ к инсайтам, менеджеры зависят от IT для каждого отчёта.',
+        'problem.pain1Stat': 'Среднее время ожидания: 3-5 дней на отчёт',
+        'problem.pain2Title': 'Разбросанные источники данных',
+        'problem.pain2Desc': 'Google Analytics, CRM, таблицы, бухгалтерия - ваши ценные данные живут в 5-10 несвязанных инструментах без единого представления.',
+        'problem.pain2Stat': 'МСБ используют 7+ разных источников данных в среднем',
+        'problem.pain3Title': 'Часы потерянные еженедельно',
+        'problem.pain3Desc': 'Ручной сбор данных, форматирование Excel, копирование между инструментами. Ваша команда тратит 8-15 часов в неделю на задачи, которые можно автоматизировать.',
+        'problem.pain3Stat': '$2,400+ потеряно ежемесячно на время сотрудников',
+        'problem.pain4Title': 'Отложенные решения',
+        'problem.pain4Desc': 'К моменту получения нужных данных возможность упущена. Конкуренты с быстрыми инсайтами захватывают долю рынка пока вы ждёте отчёты.',
+        'problem.pain4Stat': '68% бизнес-решений принимаются без данных',
+        'problem.pain5Title': 'Нет ответов "И что?"',
+        'problem.pain5Desc': 'Графики показывают цифры, но что они значат для вашего бизнеса? Традиционные BI-инструменты не дают контекста и рекомендаций.',
+        'problem.pain5Stat': 'Только 12% визуализаций данных ведут к действию',
+        'problem.pain6Title': 'Дорогие BI-решения',
+        'problem.pain6Desc': 'Корпоративные аналитические платформы стоят $500-2000/месяц и требуют выделенных аналитиков. МСБ вытеснены из data-driven принятия решений.',
+        'problem.pain6Stat': 'AskData: на 90% дешевле традиционного BI',
 
         // Features
         'features.tag': 'Возможности',
@@ -436,18 +480,24 @@ const translations = {
         // How It Works
         'howItWorks.tag': 'Как это работает',
         'howItWorks.title1': 'От данных к решениям',
-        'howItWorks.title2': 'За три шага',
-        'howItWorks.step1Title': 'Подключите данные',
-        'howItWorks.step1Desc': 'Свяжите Google Analytics, таблицы или базы данных одним кликом. Поддерживается Яндекс Метрика.',
-        'howItWorks.step2Title': 'Задавайте вопросы',
-        'howItWorks.step2Desc': 'Пишите вопросы на простом языке. "Какой лучший источник трафика?" Без SQL или формул.',
-        'howItWorks.step3Title': 'Получайте инсайты и действуйте',
-        'howItWorks.step3Desc': 'Получайте чёткие ответы с визуализациями, объяснениями и рекомендациями.',
+        'howItWorks.title2': 'За четыре простых шага',
+        'howItWorks.step1Title': 'Подключите источники данных',
+        'howItWorks.step1Desc': 'Интеграции в один клик с 150+ источниками данных. Подключайте Google Analytics, таблицы, базы данных, CRM-системы и многое другое. Ваши данные защищены шифрованием корпоративного уровня.',
+        'howItWorks.step2Title': 'Задавайте вопросы на простом языке',
+        'howItWorks.step2Desc': 'Пишите вопросы естественно, как если бы спрашивали коллегу. "Какой лучший источник трафика?" "Почему упали продажи?" ИИ понимает контекст и даёт дополнительные инсайты.',
+        'howItWorks.step3Title': 'Настройте и сохраните дашборды',
+        'howItWorks.step3Desc': 'Создавайте пользовательские дашборды с любимыми инсайтами. Перетаскивайте виджеты, настраивайте визуализации и сохраняйте их для ежедневных автоматических обновлений.',
+        'howItWorks.step4Title': 'Получайте инсайты и действуйте',
+        'howItWorks.step4Desc': 'Получайте чёткие ответы с красивыми визуализациями, нарративными объяснениями и ИИ-рекомендациями. Экспортируйте в PDF, делитесь с командой или планируйте автоматические отчёты.',
         'howItWorks.q1': '"Почему вырос показатель отказов?"',
         'howItWorks.q2': '"Топ-5 клиентов по выручке"',
         'howItWorks.q3': '"Сравнить Q3 и Q4 продажи"',
+        'howItWorks.salesChart': 'График продаж',
+        'howItWorks.trafficSource': 'Трафик',
+        'howItWorks.saved': 'Сохранено!',
         'howItWorks.revenueGrowth': 'Рост выручки',
         'howItWorks.actionNeeded': 'Требуется действие',
+        'howItWorks.dailyUpdates': 'Ежедневные обновления',
 
         // Integrations
         'integrations.tag': 'Интеграции',
@@ -544,15 +594,16 @@ const translations = {
         'footer.terms': 'Условия использования',
         'footer.cookies': 'Политика cookies',
 
-        // Chat Demo
+        // Chat Demo - Follow-up conversation flow
         'chat.question1': 'Какие были топ-продукты в прошлом месяце?',
-        'chat.question2': 'Почему продажи упали на этой неделе?',
         'chat.answer1Title': 'Ваши топ-5 продуктов за ноябрь:',
         'chat.answer1Insight': 'Выручка Pro Plan выросла на 23% по сравнению с октябрём',
-        'chat.answer2Title': 'Продажи упали на 12% на этой неделе из-за:',
-        'chat.answer2Reason1': 'Праздничный период - на 35% меньше трафика',
-        'chat.answer2Reason2': 'Отказ от корзины вырос на 8%',
-        'chat.answer2Action': 'Рекомендация: Запустите праздничную промо-кампанию'
+        'chat.followup1': 'Почему Pro Plan так сильно вырос?',
+        'chat.followup1Answer': 'Рост Pro Plan обусловлен:',
+        'chat.followup1Reason1': 'Новые корпоративные клиенты: +12 регистраций',
+        'chat.followup1Reason2': 'Акция на годовой план: 35% выбрали годовой',
+        'chat.followup1Reason3': 'Реферальная программа: 8 конверсий',
+        'chat.followup1Action': 'Рекомендация: Продлите акцию на годовой план до декабря'
     }
 };
 
@@ -786,55 +837,12 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('%c Transform your data into actionable stories ', 'color: #00d4ff; font-size: 14px;');
 });
 
-// Animated Chat Demo
+// Animated Chat Demo - Follow-up conversation flow
 function startChatDemo() {
     const chatDemo = document.getElementById('chatDemo');
     if (!chatDemo) return;
 
     const t = translations[currentLang];
-
-    const conversations = [
-        {
-            question: t['chat.question1'],
-            answer: `
-                <p>${t['chat.answer1Title']}</p>
-                <div class="mini-chart">
-                    <div class="chart-bar" style="--height: 95%"><span>Pro Plan</span></div>
-                    <div class="chart-bar" style="--height: 78%"><span>Starter</span></div>
-                    <div class="chart-bar" style="--height: 65%"><span>Enterprise</span></div>
-                    <div class="chart-bar" style="--height: 45%"><span>Add-ons</span></div>
-                    <div class="chart-bar" style="--height: 32%"><span>Support</span></div>
-                </div>
-                <p class="insight-text">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M23 6l-9.5 9.5-5-5L1 18"/>
-                        <path d="M17 6h6v6"/>
-                    </svg>
-                    ${t['chat.answer1Insight']}
-                </p>
-            `
-        },
-        {
-            question: t['chat.question2'],
-            answer: `
-                <p>${t['chat.answer2Title']}</p>
-                <ul style="margin: 12px 0; padding-left: 20px; color: var(--text-secondary);">
-                    <li style="margin-bottom: 8px;">${t['chat.answer2Reason1']}</li>
-                    <li>${t['chat.answer2Reason2']}</li>
-                </ul>
-                <p class="insight-text" style="color: #f59e0b;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"/>
-                        <line x1="12" y1="8" x2="12" y2="12"/>
-                        <line x1="12" y1="16" x2="12.01" y2="16"/>
-                    </svg>
-                    ${t['chat.answer2Action']}
-                </p>
-            `
-        }
-    ];
-
-    let currentConversation = 0;
 
     function typeText(element, text, speed = 30) {
         return new Promise(resolve => {
@@ -853,57 +861,132 @@ function startChatDemo() {
         });
     }
 
-    async function showConversation(conv) {
+    async function addMessage(type, content, isHtml = false) {
+        const msgDiv = document.createElement('div');
+        msgDiv.className = `chat-message ${type}`;
+
+        if (type === 'user') {
+            msgDiv.innerHTML = `
+                <span class="chat-avatar user-avatar">You</span>
+                <div class="chat-bubble"></div>
+            `;
+            chatDemo.appendChild(msgDiv);
+            await typeText(msgDiv.querySelector('.chat-bubble'), content, 25);
+        } else {
+            msgDiv.innerHTML = `
+                <span class="chat-avatar ai-avatar">AI</span>
+                <div class="chat-bubble">
+                    <div class="typing-indicator">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            `;
+            chatDemo.appendChild(msgDiv);
+            await new Promise(resolve => setTimeout(resolve, 1200));
+            msgDiv.querySelector('.chat-bubble').innerHTML = content;
+
+            // Animate chart bars if present
+            const bars = msgDiv.querySelectorAll('.chart-bar');
+            bars.forEach((bar, i) => {
+                bar.style.height = '0';
+                setTimeout(() => {
+                    bar.style.height = bar.style.getPropertyValue('--height');
+                }, i * 100 + 100);
+            });
+        }
+
+        // Scroll to bottom
+        chatDemo.scrollTop = chatDemo.scrollHeight;
+        return msgDiv;
+    }
+
+    async function runFollowUpConversation() {
+        // Clear chat
         chatDemo.innerHTML = '';
 
-        // User message
-        const userDiv = document.createElement('div');
-        userDiv.className = 'chat-message user';
-        userDiv.innerHTML = `
-            <span class="chat-avatar user-avatar">You</span>
-            <div class="chat-bubble"></div>
-        `;
-        chatDemo.appendChild(userDiv);
+        // First question
+        await addMessage('user', t['chat.question1']);
 
-        // Animate user typing
-        await typeText(userDiv.querySelector('.chat-bubble'), conv.question, 25);
-
-        // Show typing indicator
-        const typingDiv = document.createElement('div');
-        typingDiv.className = 'chat-message ai';
-        typingDiv.innerHTML = `
-            <span class="chat-avatar ai-avatar">AI</span>
-            <div class="chat-bubble">
-                <div class="typing-indicator">
-                    <span></span><span></span><span></span>
-                </div>
+        // First answer with chart
+        const answer1 = `
+            <p>${t['chat.answer1Title']}</p>
+            <div class="mini-chart">
+                <div class="chart-bar" style="--height: 95%"><span>Pro Plan</span></div>
+                <div class="chart-bar" style="--height: 78%"><span>Starter</span></div>
+                <div class="chart-bar" style="--height: 65%"><span>Enterprise</span></div>
+                <div class="chart-bar" style="--height: 45%"><span>Add-ons</span></div>
+                <div class="chart-bar" style="--height: 32%"><span>Support</span></div>
             </div>
+            <p class="insight-text clickable">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M23 6l-9.5 9.5-5-5L1 18"/>
+                    <path d="M17 6h6v6"/>
+                </svg>
+                ${t['chat.answer1Insight']}
+            </p>
         `;
-        chatDemo.appendChild(typingDiv);
+        await addMessage('ai', answer1);
 
-        // Wait for typing animation
-        await new Promise(resolve => setTimeout(resolve, 1500));
+        // Wait before follow-up
+        await new Promise(resolve => setTimeout(resolve, 2500));
 
-        // Replace with actual answer
-        typingDiv.querySelector('.chat-bubble').innerHTML = conv.answer;
+        // Follow-up question (going deeper)
+        await addMessage('user', t['chat.followup1']);
 
-        // Animate chart bars if present
-        const bars = typingDiv.querySelectorAll('.chart-bar');
-        bars.forEach((bar, i) => {
-            bar.style.height = '0';
-            setTimeout(() => {
-                bar.style.height = bar.style.getPropertyValue('--height');
-            }, i * 100 + 200);
-        });
+        // Follow-up answer with detailed breakdown
+        const answer2 = `
+            <p>${t['chat.followup1Answer']}</p>
+            <ul class="insight-list">
+                <li>
+                    <span class="insight-icon success">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="8.5" cy="7" r="4"/>
+                            <line x1="20" y1="8" x2="20" y2="14"/>
+                            <line x1="23" y1="11" x2="17" y2="11"/>
+                        </svg>
+                    </span>
+                    ${t['chat.followup1Reason1']}
+                </li>
+                <li>
+                    <span class="insight-icon success">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </span>
+                    ${t['chat.followup1Reason2']}
+                </li>
+                <li>
+                    <span class="insight-icon success">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </span>
+                    ${t['chat.followup1Reason3']}
+                </li>
+            </ul>
+            <p class="insight-text action-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+                ${t['chat.followup1Action']}
+            </p>
+        `;
+        await addMessage('ai', answer2);
 
-        // Wait before next conversation
-        await new Promise(resolve => setTimeout(resolve, 5000));
+        // Wait before restarting
+        await new Promise(resolve => setTimeout(resolve, 6000));
     }
 
     async function runDemo() {
         while (true) {
-            await showConversation(conversations[currentConversation]);
-            currentConversation = (currentConversation + 1) % conversations.length;
+            await runFollowUpConversation();
         }
     }
 

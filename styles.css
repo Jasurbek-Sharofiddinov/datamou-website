@@ -633,6 +633,62 @@ h3 {
     stroke: var(--accent-teal);
 }
 
+.insight-text.clickable {
+    cursor: pointer;
+    transition: color var(--transition-fast);
+}
+
+.insight-text.clickable:hover {
+    color: var(--accent-cyan);
+}
+
+.insight-text.action-item {
+    color: #f59e0b;
+    background: rgba(245, 158, 11, 0.1);
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    border-left: 3px solid #f59e0b;
+}
+
+.insight-text.action-item svg {
+    stroke: #f59e0b;
+}
+
+.insight-list {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.insight-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.insight-icon {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.insight-icon.success {
+    background: rgba(0, 245, 212, 0.15);
+}
+
+.insight-icon.success svg {
+    stroke: var(--accent-teal);
+}
+
 /* ==========================================
    Section Styles
    ========================================== */
@@ -831,7 +887,7 @@ h3 {
 /* Pain Points */
 .pain-points {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
@@ -843,6 +899,7 @@ h3 {
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
     transition: all var(--transition-base);
+    align-items: flex-start;
 }
 
 .pain-point:hover {
@@ -851,15 +908,29 @@ h3 {
     transform: translateY(-4px);
 }
 
-.pain-number {
-    font-size: 2rem;
-    font-weight: 800;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    line-height: 1;
-    opacity: 0.5;
+.pain-icon-wrap {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 100, 100, 0.1);
+    border-radius: var(--radius-md);
+    flex-shrink: 0;
+}
+
+.pain-icon-wrap svg {
+    width: 24px;
+    height: 24px;
+    stroke: #ff6464;
+}
+
+.pain-point:hover .pain-icon-wrap {
+    background: rgba(0, 212, 255, 0.15);
+}
+
+.pain-point:hover .pain-icon-wrap svg {
+    stroke: var(--accent-cyan);
 }
 
 .pain-content h4 {
@@ -871,6 +942,17 @@ h3 {
     color: var(--text-secondary);
     font-size: 0.875rem;
     line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.pain-stat {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent-cyan);
+    padding: 4px 10px;
+    background: rgba(0, 212, 255, 0.1);
+    border-radius: 50px;
 }
 
 /* ==========================================
@@ -1067,6 +1149,106 @@ h3 {
 .int-icon.db { color: var(--accent-cyan); }
 .int-icon.more { color: var(--text-muted); }
 
+/* Integration Logos in How It Works */
+.integration-logos {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.int-logo {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.int-logo:hover {
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+}
+
+.int-logo img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.int-logo.yandex {
+    background: #fc3f1d;
+    color: white;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.int-logo.more {
+    background: var(--gradient-primary);
+    color: white;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+/* Dashboard Preview Mini */
+.dashboard-preview-mini {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.dash-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.dash-widget:hover {
+    border-color: var(--accent-cyan);
+}
+
+.dash-widget svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--accent-cyan);
+}
+
+.dash-widget span {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.dash-widget.highlight {
+    background: rgba(0, 245, 212, 0.1);
+    border-color: var(--accent-teal);
+}
+
+.dash-widget.highlight svg {
+    stroke: var(--accent-teal);
+}
+
+.dash-widget.highlight span {
+    color: var(--accent-teal);
+    font-weight: 600;
+}
+
+.insight-trend.schedule {
+    color: var(--accent-purple);
+}
+
+.insight-trend.schedule svg {
+    stroke: var(--accent-purple);
+}
+
 .question-examples {
     display: flex;
     flex-wrap: wrap;
@@ -1143,33 +1325,112 @@ h3 {
 }
 
 .integration-logo {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.1);
     border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.integration-card:hover .integration-logo {
+    transform: scale(1.1);
+}
+
+.integration-logo img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
 }
 
 .integration-logo svg {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     fill: var(--text-secondary);
+    transition: fill var(--transition-fast);
+}
+
+/* Brand-specific logo colors */
+.integration-logo.ga-logo {
+    background: rgba(246, 178, 51, 0.15);
+}
+
+.integration-logo.sheets-logo {
+    background: rgba(52, 168, 83, 0.15);
 }
 
 .integration-logo.yandex {
-    background: #fc3f1d;
-    color: white;
-    font-weight: 800;
-    font-size: 1.5rem;
+    background: rgba(252, 63, 29, 0.15);
 }
 
-.integration-logo.meta {
-    background: #1877f2;
-    color: white;
-    font-weight: 800;
-    font-size: 1.25rem;
+.integration-logo.yandex svg {
+    fill: #fc3f1d;
+}
+
+.integration-logo.excel-logo {
+    background: rgba(33, 115, 70, 0.15);
+}
+
+.integration-logo.excel-logo svg {
+    fill: #217346;
+}
+
+.integration-logo.postgres-logo {
+    background: rgba(51, 103, 145, 0.15);
+}
+
+.integration-logo.postgres-logo svg {
+    fill: #336791;
+}
+
+.integration-logo.mysql-logo {
+    background: rgba(0, 117, 143, 0.15);
+}
+
+.integration-logo.mysql-logo svg {
+    fill: #00758f;
+}
+
+.integration-logo.slack-logo {
+    background: rgba(74, 21, 75, 0.15);
+}
+
+.integration-logo.slack-logo svg {
+    fill: #4A154B;
+}
+
+.integration-logo.hubspot-logo {
+    background: rgba(255, 122, 89, 0.15);
+}
+
+.integration-logo.hubspot-logo svg {
+    fill: #FF7A59;
+}
+
+.integration-logo.salesforce-logo {
+    background: rgba(0, 161, 224, 0.15);
+}
+
+.integration-logo.salesforce-logo svg {
+    fill: #00A1E0;
+}
+
+.integration-logo.stripe-logo {
+    background: rgba(99, 91, 255, 0.15);
+}
+
+.integration-logo.stripe-logo svg {
+    fill: #635BFF;
+}
+
+.integration-logo.shopify-logo {
+    background: rgba(150, 191, 72, 0.15);
+}
+
+.integration-logo.shopify-logo svg {
+    fill: #96BF48;
 }
 
 .integration-card span {
@@ -1760,6 +2021,12 @@ h3 {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .pain-point {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
     .problem-flow {
         flex-direction: column;
     }
@@ -1870,15 +2137,6 @@ h3 {
 
     .pain-points {
         grid-template-columns: 1fr;
-    }
-
-    .pain-point {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .pain-number {
-        margin-bottom: 8px;
     }
 }
 
