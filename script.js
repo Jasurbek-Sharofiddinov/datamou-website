@@ -838,9 +838,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Animated Chat Demo - Follow-up conversation flow
+let chatDemoGeneration = 0;
+
 function startChatDemo() {
     const chatDemo = document.getElementById('chatDemo');
     if (!chatDemo) return;
+
+    // Increment generation to cancel any previous running demo
+    const currentGeneration = ++chatDemoGeneration;
+    chatDemo.innerHTML = '';
 
     const t = translations[currentLang];
 
@@ -985,8 +991,10 @@ function startChatDemo() {
     }
 
     async function runDemo() {
-        while (true) {
+        while (currentGeneration === chatDemoGeneration) {
             await runFollowUpConversation();
+            // Check again after conversation completes
+            if (currentGeneration !== chatDemoGeneration) break;
         }
     }
 
