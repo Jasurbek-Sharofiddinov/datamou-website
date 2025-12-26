@@ -1,27 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0f23"/>
-      <stop offset="100%" style="stop-color:#1a1a40"/>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="50%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#d946ef"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00d4ff"/>
-      <stop offset="100%" style="stop-color:#7c3aed"/>
+    <linearGradient id="cloudGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
     </linearGradient>
   </defs>
 
   <!-- Background -->
-  <rect x="0" y="0" width="32" height="32" rx="6" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="32" height="32" rx="6" fill="#0f0f23"/>
 
-  <!-- Circle outline -->
-  <circle cx="16" cy="16" r="11" fill="none" stroke="url(#accentGrad)" stroke-width="1.5"/>
+  <!-- Main cloud shape -->
+  <path d="M24 11 C24 8 21 6 18 7 C16 4 12 3 9 6 C6 6 4 9 5 12 C2 13 1 17 4 19 C4 22 6 24 10 24 L22 24 C26 24 28 21 27 18 C29 15 29 12 26 11 C26 9 25 9 24 11 Z"
+        fill="url(#cloudGrad)" />
 
-  <!-- Data dots -->
-  <circle cx="9" cy="12" r="2" fill="#00f5d4"/>
-  <circle cx="23" cy="12" r="2" fill="#00d4ff"/>
-  <circle cx="9" cy="20" r="2" fill="#7c3aed"/>
-  <circle cx="23" cy="20" r="2" fill="#c026d3"/>
+  <!-- Secondary cloud layer -->
+  <ellipse cx="17" cy="22" rx="8" ry="5" fill="url(#cloudGrad2)" opacity="0.9"/>
 
-  <!-- Center A -->
-  <text x="16" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">A</text>
+  <!-- Pixelated squares -->
+  <rect x="25" y="7" width="3" height="3" fill="#6366f1" rx="0.5"/>
+  <rect x="28" y="5" width="2" height="2" fill="#8b5cf6" rx="0.5"/>
+  <rect x="27" y="10" width="2" height="2" fill="#a78bfa" rx="0.5"/>
+
+  <rect x="2" y="21" width="2" height="2" fill="#d946ef" rx="0.5"/>
+  <rect x="1" y="24" width="2" height="2" fill="#ec4899" rx="0.5"/>
+
+  <!-- "D" letter -->
+  <text x="15" y="19" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">D</text>
 </svg>

@@ -1,4 +1,4 @@
-// AskData Landing Page JavaScript
+// DATAMOU Landing Page JavaScript
 
 // Translations
 const translations = {
@@ -29,7 +29,7 @@ const translations = {
         'problem.title2': "But It's Trapped.",
         'problem.subtitle': "SMEs have valuable data scattered across platforms. Unlocking insights shouldn't require a data scientist or expensive tools.",
         'problem.now': 'NOW',
-        'problem.with': 'WITH ASKDATA',
+        'problem.with': 'WITH DATAMOU',
         'problem.nowTitle': 'Scattered & Confusing',
         'problem.nowDesc': 'Data in 5+ tools, hours wasted, decisions delayed',
         'problem.withTitle': 'Clear & Actionable',
@@ -51,7 +51,7 @@ const translations = {
         'problem.pain5Stat': 'Only 12% of data visualizations lead to action',
         'problem.pain6Title': 'Expensive BI Solutions',
         'problem.pain6Desc': 'Enterprise analytics platforms cost $500-2000/month and require dedicated analysts. SMEs are priced out of data-driven decision making.',
-        'problem.pain6Stat': 'AskData: 90% cheaper than traditional BI',
+        'problem.pain6Stat': 'DATAMOU: 90% cheaper than traditional BI',
 
         // Features
         'features.tag': 'Features',
@@ -152,10 +152,10 @@ const translations = {
         'testimonials.tag': 'Testimonials',
         'testimonials.title1': 'Loved by',
         'testimonials.title2': 'Business Owners',
-        'testimonials.subtitle': 'See what our customers are saying about AskData.',
-        'testimonials.quote1': '"Finally, I can understand my data without bothering my developer. AskData gives me the insights I need to make decisions, explained in plain language."',
+        'testimonials.subtitle': 'See what our customers are saying about DATAMOU.',
+        'testimonials.quote1': '"Finally, I can understand my data without bothering my developer. DATAMOU gives me the insights I need to make decisions, explained in plain language."',
         'testimonials.quote2': '"The weekly reports save me hours. I used to dread pulling together numbers for our team meetings. Now it\'s automated and actually tells me what matters."',
-        'testimonials.quote3': '"Connecting our Yandex Metrica was seamless. We operate in multiple markets and AskData handles all our analytics sources beautifully."',
+        'testimonials.quote3': '"Connecting our Yandex Metrica was seamless. We operate in multiple markets and DATAMOU handles all our analytics sources beautifully."',
         'testimonials.role1': 'E-commerce Owner',
         'testimonials.role2': 'Marketing Director',
         'testimonials.role3': 'SaaS Founder',
@@ -230,7 +230,7 @@ const translations = {
         'problem.title2': 'Lekin qulflangan.',
         'problem.subtitle': 'KO\'Blar qimmatli ma\'lumotlarga ega, lekin ular turli platformalarda tarqalgan. Tahlillarni ochish uchun ma\'lumotlar olimi yoki qimmat vositalar kerak bo\'lmasligi kerak.',
         'problem.now': 'HOZIR',
-        'problem.with': 'ASKDATA BILAN',
+        'problem.with': 'DATAMOU BILAN',
         'problem.nowTitle': 'Tarqoq va chalkash',
         'problem.nowDesc': '5+ vositada ma\'lumot, soatlar yo\'qoladi, qarorlar kechikadi',
         'problem.withTitle': 'Aniq va amaliy',
@@ -252,7 +252,7 @@ const translations = {
         'problem.pain5Stat': 'Ma\'lumot vizualizatsiyalarining faqat 12% harakatga olib keladi',
         'problem.pain6Title': 'Qimmat BI yechimlari',
         'problem.pain6Desc': 'Korporativ tahlil platformalari oyiga $500-2000 turadi va maxsus tahlilchilarni talab qiladi. KO\'Blar ma\'lumotlarga asoslangan qarorlardan chetda qoladi.',
-        'problem.pain6Stat': 'AskData: an\'anaviy BI dan 90% arzon',
+        'problem.pain6Stat': 'DATAMOU: an\'anaviy BI dan 90% arzon',
 
         // Features
         'features.tag': 'Xususiyatlar',
@@ -353,10 +353,10 @@ const translations = {
         'testimonials.tag': 'Fikrlar',
         'testimonials.title1': 'Biznes egalari',
         'testimonials.title2': 'Tomonidan sevilgan',
-        'testimonials.subtitle': 'Mijozlarimiz AskData haqida nima deyishini ko\'ring.',
-        'testimonials.quote1': '"Nihoyat, men dasturchimni bezovta qilmasdan ma\'lumotlarimni tushuna olaman. AskData menga qarorlar qabul qilish uchun kerakli tahlillarni beradi."',
+        'testimonials.subtitle': 'Mijozlarimiz DATAMOU haqida nima deyishini ko\'ring.',
+        'testimonials.quote1': '"Nihoyat, men dasturchimni bezovta qilmasdan ma\'lumotlarimni tushuna olaman. DATAMOU menga qarorlar qabul qilish uchun kerakli tahlillarni beradi."',
         'testimonials.quote2': '"Haftalik hisobotlar menga soatlarni tejaydi. Men jamoa uchrashuvlari uchun raqamlarni yig\'ishdan qo\'rqardim. Endi u avtomatlashtirilgan."',
-        'testimonials.quote3': '"Yandex Metrica-ni ulash juda oson edi. Biz ko\'p bozorlarda ishlaymiz va AskData barcha tahlil manbalarimizni chiroyli boshqaradi."',
+        'testimonials.quote3': '"Yandex Metrica-ni ulash juda oson edi. Biz ko\'p bozorlarda ishlaymiz va DATAMOU barcha tahlil manbalarimizni chiroyli boshqaradi."',
         'testimonials.role1': 'E-tijorat egasi',
         'testimonials.role2': 'Marketing direktori',
         'testimonials.role3': 'SaaS asoschisi',
@@ -431,7 +431,7 @@ const translations = {
         'problem.title2': 'Но они заперты.',
         'problem.subtitle': 'У МСБ есть ценные данные, разбросанные по платформам. Получение инсайтов не должно требовать дата-аналитика или дорогих инструментов.',
         'problem.now': 'СЕЙЧАС',
-        'problem.with': 'С ASKDATA',
+        'problem.with': 'С DATAMOU',
         'problem.nowTitle': 'Разрозненно и запутанно',
         'problem.nowDesc': 'Данные в 5+ инструментах, часы потеряны, решения откладываются',
         'problem.withTitle': 'Ясно и действенно',
@@ -453,7 +453,7 @@ const translations = {
         'problem.pain5Stat': 'Только 12% визуализаций данных ведут к действию',
         'problem.pain6Title': 'Дорогие BI-решения',
         'problem.pain6Desc': 'Корпоративные аналитические платформы стоят $500-2000/месяц и требуют выделенных аналитиков. МСБ вытеснены из data-driven принятия решений.',
-        'problem.pain6Stat': 'AskData: на 90% дешевле традиционного BI',
+        'problem.pain6Stat': 'DATAMOU: на 90% дешевле традиционного BI',
 
         // Features
         'features.tag': 'Возможности',
@@ -554,10 +554,10 @@ const translations = {
         'testimonials.tag': 'Отзывы',
         'testimonials.title1': 'Любимый',
         'testimonials.title2': 'Владельцами бизнеса',
-        'testimonials.subtitle': 'Узнайте, что говорят наши клиенты об AskData.',
-        'testimonials.quote1': '"Наконец-то я могу понимать свои данные, не беспокоя разработчика. AskData даёт мне инсайты для принятия решений на понятном языке."',
+        'testimonials.subtitle': 'Узнайте, что говорят наши клиенты об DATAMOU.',
+        'testimonials.quote1': '"Наконец-то я могу понимать свои данные, не беспокоя разработчика. DATAMOU даёт мне инсайты для принятия решений на понятном языке."',
         'testimonials.quote2': '"Еженедельные отчёты экономят мне часы. Раньше я боялся собирать цифры для совещаний. Теперь это автоматизировано."',
-        'testimonials.quote3': '"Подключение Яндекс Метрики было бесшовным. Мы работаем на нескольких рынках, и AskData прекрасно справляется со всеми источниками."',
+        'testimonials.quote3': '"Подключение Яндекс Метрики было бесшовным. Мы работаем на нескольких рынках, и DATAMOU прекрасно справляется со всеми источниками."',
         'testimonials.role1': 'Владелец e-commerce',
         'testimonials.role2': 'Директор по маркетингу',
         'testimonials.role3': 'Основатель SaaS',
@@ -624,7 +624,7 @@ function updateTranslations(lang) {
     document.documentElement.lang = lang;
 
     // Save preference
-    localStorage.setItem('askdata-lang', lang);
+    localStorage.setItem('datamou-lang', lang);
 
     // Restart chat demo with new language
     startChatDemo();
@@ -632,7 +632,7 @@ function updateTranslations(lang) {
 
 document.addEventListener('DOMContentLoaded', function() {
     // Check saved language preference
-    const savedLang = localStorage.getItem('askdata-lang');
+    const savedLang = localStorage.getItem('datamou-lang');
     if (savedLang && translations[savedLang]) {
         currentLang = savedLang;
         updateTranslations(savedLang);
@@ -833,8 +833,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Console welcome message
-    console.log('%c Welcome to AskData! ', 'background: linear-gradient(135deg, #00d4ff, #7c3aed); color: white; font-size: 20px; padding: 10px; border-radius: 8px;');
-    console.log('%c Transform your data into actionable stories ', 'color: #00d4ff; font-size: 14px;');
+    console.log('%c Welcome to DATAMOU! ', 'background: linear-gradient(135deg, #6366f1, #d946ef); color: white; font-size: 20px; padding: 10px; border-radius: 8px;');
+    console.log('%c Transform your data into actionable stories ', 'color: #8b5cf6; font-size: 14px;');
 });
 
 // Animated Chat Demo - Follow-up conversation flow
